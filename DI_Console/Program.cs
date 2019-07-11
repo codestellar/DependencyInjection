@@ -26,15 +26,16 @@ namespace TechnossusOne
             builder
                 .RegisterType<ClientRepository>()
                 .As<IClientRepository>()
-            // ;
-            .SingleInstance();
+            //;
+            //.SingleInstance();
             //.InstancePerDependency();
+            .InstancePerLifetimeScope();
 
 
             builder
                 .RegisterType<ClientService>()
                 .As<IClientService>()
-              ;
+            ;
             //.SingleInstance();
             //.InstancePerDependency();
             //.InstancePerLifetimeScope();
