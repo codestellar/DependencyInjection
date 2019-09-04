@@ -26,3 +26,5 @@ The sample demonstrates dependency injection with Autofac.
 ![Step 1, 2, 3](images/1.png)
 * Resolve dependency
 ![Step 4](images/2.png)
+
+## Jasjot's changes
